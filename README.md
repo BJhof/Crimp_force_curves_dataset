@@ -1,4 +1,4 @@
-# Crimp Force Curves Dataset
+# Crimp Force Curves Dataset - Analysis
 
 This repository provides the **code and structure used to validate** the [Crimp Force Curves Dataset](https://doi.org/10.7910/DVN/WBDKN6).  
 
