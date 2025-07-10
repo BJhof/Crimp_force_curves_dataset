@@ -1,0 +1,39 @@
+{
+    "machine": {
+        "model": "Schaefer EPS2001",
+        "press_drive_mechanism": "Eccentric",
+        "terminal_feeding": "Mechanical",
+        "pressing_force": "20 kN"
+    },
+    "sensors": {
+        "force_sensor": {
+            "model": "Engberts GmbH SDS100",
+            "type": "Strain sensor"
+        }
+    },
+    "materials": {
+        "conductor_connector_pairs": [
+            {
+                "id": "config_05",
+                "cores": 16,
+                "cross_section": "0.50 mm\u00b2",
+                "conductor_type": "FLRY-B copper",
+                "connector": {
+                    "name": "MLK 1.2 Sm Ag",
+                    "type": "F-crimp"
+                }
+            },
+            {
+                "id": "config_035",
+                "cores": 12,
+                "cross_section": "0.35 mm\u00b2",
+                "conductor_type": "FLRY-B copper",
+                "connector": {
+                    "name": "MLK 1.2 ELA",
+                    "type": "F-crimp"
+                }
+            }
+        ]
+    },
+    "notes": "This metadata file describes the machine, sensor, and crimp configurations used to generate the force curve dataset. Pairings are referenced by 'config_05' and 'config_035'."
+}
