@@ -36,11 +36,11 @@ Crimp_force_curves_dataset/
    git clone https://github.com/BJhof/cfc-analysis.git
    cd cfc-analysis
 
-2. **Create environment**
-python -m venv venv
-
-# Activate environment
-.\venv\Scripts\activate
+2. **Create and activate environment**
+   ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
 
 3. **Install dependencies**
-pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
