@@ -15,7 +15,7 @@ Expected folder structure:
 ```
 Crimp_force_curves_dataset/
 ├── crimp_force_curves_dataset.pkl
-├── crimp_force_curves_dataset_metadata.txt
+├── metadata.json
 ├── preprocessing.py
 ├── validation.py
 ├── images.py
@@ -24,4 +24,23 @@ Crimp_force_curves_dataset/
 ├── requirements.txt
 └── .gitignore
 ```
+## Prerequisites
 
+- **Operating System**: Windows (tested on Windows 11)  
+- **Python**: 3.11  
+
+## Setup & Installation (Windows)
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BJhof/cfc-analysis.git
+   cd cfc-analysis
+
+2. **Create environment**
+python -m venv venv
+
+# Activate environment
+.\venv\Scripts\activate
+
+3. **Install dependencies**
+pip install -r requirements.txt
