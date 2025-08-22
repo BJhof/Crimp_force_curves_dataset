@@ -15,7 +15,7 @@ Expected folder structure:
 ```
 Crimp_force_curves_dataset/
 ├── crimp_force_curves_dataset.pkl
-├── crimp_force_curves_dataset_metadata.txt
+├── metadata.json
 ├── preprocessing.py
 ├── validation.py
 ├── images.py
